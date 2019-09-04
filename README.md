@@ -1,14 +1,14 @@
-# ETS Node.js <3 React Template
+# ⚡️ ETS Template - Node.js 💕 React edition
 
-## Pre-requisites
+## Pre-reqs
 * Node.js ^10.x.x
 * Yarn ^1.17.x
 
-**Note about yarn:** Yarn is a package manager for node. It uses the same registry as npm, but it's quicker and more secure. Yarn is recommended for use over npm.
+**A note about yarn:** Yarn is a package manager for node. It uses the same registry as npm, but it's quicker and more secure. Yarn is recommended for use over npm.
 To learn more about Yarn, [visit the docs](https://yarnpkg.com/en/docs/install)
 
 ## Project Start
-> If you've requested this app via ServiceNow, skip ahead ro 3.
+> If you've requested this app via ServiceNow, skip ahead to 3.
 
 1. Checkout a clean version of the project
 ```zsh
