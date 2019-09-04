@@ -45,7 +45,8 @@ This package comes with CI by default. The config for Azure Pipelines can be fou
 * Lint code
 * Test code
 
-## Contributing
+## Contributing
+
 This template (should be) is open source to everybody in Elanco. This means that if you want a feature, or want to fix a bug - submit a pull request!
 
 Just ensure that:
