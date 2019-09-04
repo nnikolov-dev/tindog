@@ -2,9 +2,10 @@
 	"ci": "??",
 	"owner": {
 		"name": "Harry Fitzgerald",
-		"user_id": "harry.fitzgerald"
+		"user_id": "harry.fitzgerald",
+		"upn": "harry.fitzgerald@elancoah.com"
 	},
 	"deputy": "Harry Fitzgerald",
-	"reousrce_group_name": "To be filled out",
+	"resource_group_name": "To be filled out",
 	"regulated": false
 }
