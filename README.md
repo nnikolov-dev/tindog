@@ -1,4 +1,4 @@
-# ⚡️ ETS Template - Node.js 💕 React edition
+# ⚡️ ETS Template - Node.js 💛 React edition
 
 ## Pre-reqs
 * Node.js ^10.x.x
