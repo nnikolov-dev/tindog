@@ -22,10 +22,12 @@ stages:
   condition: >
     or(
       eq(variables['Build.SourceBranch'], 'refs/heads/master'), 
-      startsWith(variables['Build.SourceBranch'], 'refs/heads/feature/'), 
+      and(
+        startsWith(variables['Build.SourceBranch'], 'refs/heads/feature/'), 
+        not(startsWith(variables['Build.SourceBranch'], 'refs/heads/feature/experimental'))
+      ),
       startsWith(variables['Build.SourceBranch'], 'refs/heads/fix/'), 
       startsWith(variables['Build.SourceBranch'], 'refs/heads/cleanup/'),
-      not(startsWith(variables['Build.SourceBranch'], 'refs/heads/feature/experimental'))
     )
   jobs:
   - job: Code_Analysis
