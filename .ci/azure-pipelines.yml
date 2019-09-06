@@ -27,7 +27,7 @@ stages:
         not(startsWith(variables['Build.SourceBranch'], 'refs/heads/feature/experimental'))
       ),
       startsWith(variables['Build.SourceBranch'], 'refs/heads/fix/'), 
-      startsWith(variables['Build.SourceBranch'], 'refs/heads/cleanup/'),
+      startsWith(variables['Build.SourceBranch'], 'refs/heads/cleanup/')
     )
   jobs:
   - job: Code_Analysis
