@@ -44,7 +44,7 @@ stages:
     - bash: ./$(SCRIPT_DIR)/check-leaks.sh
 
 - stage: Build
-  jobs: BuildItNow
+  jobs:
   - job: Build
     steps:
     - bash: yarn
