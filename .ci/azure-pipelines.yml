@@ -45,6 +45,7 @@ stages:
 
 - stage: Build
   jobs: BuildItNow
-  steps:
+  - job: Build
+    steps:
     - bash: yarn
     - bash: yarn build
