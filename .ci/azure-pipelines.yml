@@ -50,5 +50,6 @@ stages:
     - bash: yarn
     - bash: yarn build
     - bash: ls
-    - publish: $(pwd)
+    - bash: ls $(System.DefaultWorkingDirectory)
+    - publish: $(System.DefaultWorkingDirectory)
       artifact: WebApp
