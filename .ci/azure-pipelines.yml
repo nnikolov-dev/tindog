@@ -42,3 +42,9 @@ stages:
     displayName: Check for any committed keys (gitleaks)
     steps:
     - bash: ./$(SCRIPT_DIR)/check-leaks.sh
+
+- stage: Build
+  jobs: BuildItNow
+  steps:
+    - bash: yarn
+    - bash: yarn build
