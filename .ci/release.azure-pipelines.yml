@@ -1,0 +1,4 @@
+steps:
+  - bash: yarn
+  - bash: yarn build
+  - task: PublishPipelineArtifact@1
