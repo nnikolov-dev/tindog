@@ -49,5 +49,6 @@ stages:
     steps:
     - bash: yarn
     - bash: yarn build
-    - publish: $(System.DefaultWorkingDirectory)/bin/WebApp
+    - bash: ls
+    - publish: $(System.DefaultWorkingDirectory)
       artifact: WebApp
