@@ -27,17 +27,21 @@
     "eslint-plugin-react-hooks": "^1.7.0",
     "mocha": "^6.2.0",
     "nodemon": "^1.19.2",
-    "parcel": "^1.12.3"
+    "parcel": "^1.12.3",
+    "sass": "^1.22.12"
   },
   "dependencies": {
     "express": "^4.17.1",
     "helmet": "^3.20.1",
     "insane": "^2.6.2",
     "marked": "^0.7.0",
+    "materialize-css": "^1.0.0-rc.2",
     "morgan": "^1.9.1",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
+    "react-animated-css": "^1.2.1",
     "react-dom": "^16.9.0",
+    "react-materialize": "^3.4.1",
     "react-router-dom": "^5.0.1",
     "winston": "^3.2.1"
   }

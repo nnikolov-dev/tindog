@@ -4,6 +4,8 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 
 import Home from './pages/Home'
 import Layout from './Layout'
+import 'materialize-css/dist/css/materialize.css'
+import './styles/animate.css'
 
 const App = () => (
 	<Layout>
