@@ -13,11 +13,11 @@ To learn more about Yarn, [visit the docs](https://yarnpkg.com/en/docs/install)
 ```zsh
 ~ $ git clone github.com/nnikolov-dev/tindog.git $projectname && cd $projectname
 ```
-3. Install dependencies
+2. Install dependencies
 ```zsh
 ~/$projectname $ yarn
 ```
-4. Develop!
+3. Develop!
 ```zsh
 ~/$projectname $ yarn dev
 ```
